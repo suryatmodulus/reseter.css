@@ -69,7 +69,7 @@
 - Source In 4 Different Formats
 - Reboots styles for a wide range of elements.
 - Corrects bugs and browser inconsistencies.
-- Sized 2.6<small>kb</small>
+- Sized 2.6kb
 - Includes all normalizations
 - Sets `box-sizing: border-box
 - Fully tested
@@ -80,25 +80,25 @@
 
 |                      Feature                       |                                                        Reseter.css                                                        |                                                     Normalize.css                                                      |                                                     Sanitize.css                                                      |                                                       Reset.css                                                       |
 | :------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
-|                   Normalizations                   |                                                    :heavy_check_mark:                                                     |                                                   :heavy_check_mark:                                                   |                                                  :heavy_check_mark:                                                   |                                                          :x:                                                          |
-|               Basic Elemental Styles               |                                                    :heavy_check_mark:                                                     |                                                          :o:                                                           |                                                  :heavy_check_mark:                                                   |                                                          :x:                                                          |
+|                   Normalizations                   |                                                            ✅                                                             |                                                           ✅                                                           |                                                          ✅                                                           |                                                          ❌                                                           |
+|               Basic Elemental Styles               |                                                            ✅                                                             |                                                           ⭕                                                           |                                                          ✅                                                           |                                                          ❌                                                           |
 | Size (By [Bundlephobia](http://bundlephobia.com/)) | ![GitHub file size in bytes](https://img.shields.io/github/size/krishdevdb/reseter.css/css/reseter.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/necolas/normalize.css/normalize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/csstools/sanitize.css/sanitize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/shannonmoeller/reset-css/reset.css?style=flat-square) |
-|                  Minified Version                  |                 ![npm bundle size](https://img.shields.io/bundlephobia/min/reseter.css?style=flat-square)                 |                                                 :x: (Minify Yourself)                                                  |                                                 :x:(Minify Yourself)                                                  |                                                 :x:(Minify Yourself)                                                  |
-|                    GZIP Version                    |               ![npm bundle size](https://img.shields.io/bundlephobia/minzip/reseter.css?style=flat-square)                |                                                :x: (Compress Yourself)                                                 |                                                :x: (Compress Yourself)                                                |                                                :x: (Compress Yourself)                                                |
-|                     Box Sizing                     |                                                    :heavy_check_mark:                                                     |                                                          :x:                                                           |                                                  :heavy_check_mark:                                                   |                                                          :x:                                                          |
+|                  Minified Version                  |                 ![npm bundle size](https://img.shields.io/bundlephobia/min/reseter.css?style=flat-square)                 |                                                  ❌ (Minify Yourself)                                                  |                                                  ❌(Minify Yourself)                                                  |                                                  ❌(Minify Yourself)                                                  |
+|                    GZIP Version                    |               ![npm bundle size](https://img.shields.io/bundlephobia/minzip/reseter.css?style=flat-square)                |                                                 ❌ (Compress Yourself)                                                 |                                                ❌ (Compress Yourself)                                                 |                                                ❌ (Compress Yourself)                                                 |
+|                     Box Sizing                     |                                                            ✅                                                             |                                                           ❌                                                           |                                                          ✅                                                           |                                                          ❌                                                           |
 |                  Browser Support                   |                             Last 5 Versions<br />All Not Dead Browsers<br />**Customisable**                              |                        IE 10+<br />Safari 8+<br />Chrome<br />Firefox ESR+<br />Opera<br />Edge                        |                      Last 3 Versions<br />Exception: Safari Last 2<br />Also Firefox ESR, IE 9+                       |                                                        Unkown                                                         |
 
 ### Legend
 
-:heavy_check_mark: - Yes
+✅- Yes
 
-:x: - No
+❌ - No
 
-:o: - Partial
+⭕ - Partial
 
 ## Why Use Reseter.css (Must Read)
 
-Down is the result of a same html file of 3 browsers, all of chrome's headings are bolded nicely. Firefox ones are also bolded but IE ones are bolded too much. The ,font on paragraphs is also bolded in IE. The border of the button is blue in IE. There's A little less border on buttons in Firefox. These Are Only **3 browsers** and **5 kinds of tags** but there are more then 100 browsers available to the public. No one knows how many of them are not public. In fact 1000's of versions of these 100's of browsers are available. How to keep us with these browsers. The answer is **Reseter.css**.
+Down is the result of the same HTML file of 3 browsers. All of the chrome's headings are bolded nicely. Firefox ones are also bolded, but IE ones are bolded too much. The font on paragraphs is also bolded in IE. The border of the button is blue in IE. There's A little thinner border on buttons in Firefox. Below are only three browsers and 5 HTML tags. There are more than 100 browsers available to the public. There are plenty of tags there too. No one knows how many of them are not public. 1000s of versions of these 100s of browsers are available. How to keep us with these browsers? The answer is **Reseter.css**.
 
 |                                                 Chrome                                                  |                                                     Internet Explorer                                                     |                                                             With Reseter.css                                                             |
 | :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: |
@@ -698,6 +698,7 @@ We’re excited that you’re using **reseter.css** and we’d love to help.
     <td align="center"><a href="http://miza.org"><img src="https://avatars.githubusercontent.com/u/7329623?v=4?s=100" width="100px;" alt=""/><br /><sub><b>aco</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/issues?q=author%3Astarkana" title="Bug reports">🐛</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=starkana" title="Code">💻</a></td>
     <td align="center"><a href="https://yamanoku.net"><img src="https://avatars.githubusercontent.com/u/1996642?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Okuto Oyama</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=yamanoku" title="Documentation">📖</a></td>
     <td align="center"><a href="http://coliss.com/"><img src="https://avatars.githubusercontent.com/u/450701?v=4?s=100" width="100px;" alt=""/><br /><sub><b>coliss</b></sub></a><br /><a href="#blog-coliss" title="Blogposts">📝</a></td>
+    <td align="center"><a href="https://github.com/lsprr"><img src="https://avatars.githubusercontent.com/u/16653744?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Luis Parra</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=lsprr" title="Documentation">📖</a></td>
   </tr>
 </table>
 
@@ -739,19 +740,19 @@ And All Other's Who Shared Or Posted About Reseter.css (Keeping A Record Of All 
 ## License
 
     MIT License
-    
+
     Copyright (c) 2021 Krish Dev DB
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
